@@ -4,7 +4,7 @@ import cv2
 import time
 import serial
 from camera import *
-from Focus_match import cal_contrast, make_fibonacci
+from focus import cal_contrast, make_fibonacci
 from control_lens import sendValue
 
 

@@ -3,7 +3,7 @@ import argparse
 import cv2
 import time
 import serial
-from Focus_match import cal_contrast, make_fibonacci
+from focus import cal_contrast, make_fibonacci
 from control_lens import sendValue
 
 
@@ -92,7 +92,7 @@ class AutofocusCamera:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Auto_focus algorithm for arducam")
+    parser = argparse.ArgumentParser(description="Auto_focus algorithm for a camera")
 
     parser.add_argument("--cam_id", required="True", help="the cam id number")
     parser.add_argument("--port", required="True", help="Liquid lens port name")
