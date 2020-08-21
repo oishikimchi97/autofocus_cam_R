@@ -8,7 +8,9 @@
 python preview.py
 ```
 > q: quit 
+
 > w: increase the liquid lens'voltage
+
 > e: drop the liquid lens'voltage
 
 ---
